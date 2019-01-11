@@ -124,6 +124,7 @@
     <orderEntry type="library" name="android.arch.lifecycle:viewmodel-1.1.0" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-measurement-connector-17.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-core-utils-27.1.1" level="project" />
+    <orderEntry type="library" name="__local_aars__:/home/lorence/Android/Sdk/build-tools/27.0.2/renderscript/lib/renderscript-v8.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-measurement-connector-impl-17.0.3" level="project" />
     <orderEntry type="library" name="com.google.firebase:firebase-iid-interop-16.0.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-annotations:27.1.1@jar" level="project" />
