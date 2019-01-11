@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/txtNotice"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Your family doesn't have any member. \nPlease create a new member."
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txtNoticeMemberAndGuest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This family doesn't have any member."
+        android:gravity="center"
+        android:visibility="gone"/>
+
+    <de.blox.graphview.GraphView
+        android:id="@+id/graph"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:lineColor="@android:color/black"
+        app:useMaxSize="false"
+        app:maxZoom="15"
+        app:hasClickableChildren="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addNode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:src="@drawable/plus"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/btnFollow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:background="@color/white"
+        android:src="@drawable/ic_follow"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/btnWaiting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:background="@color/white"
+        android:src="@drawable/ic_waiting"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/btnFollowed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|top"
+        android:background="@color/white"
+        android:src="@drawable/ic_followed"
+        android:layout_margin="16dp"
+        android:visibility="gone"/>
+
+</FrameLayout>

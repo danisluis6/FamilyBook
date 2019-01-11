@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="relative_array_first_male_node_single">
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Wife</item>
+    </string-array>
+
+    <string-array name="relative_array_first_male_node_married">
+        <item>Son</item>
+        <item>Daughter</item>
+    </string-array>
+
+    <string-array name="relative_array_male_node_single">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Son</item>
+        <item>Daughter</item>
+        <item>Wife</item>
+    </string-array>
+
+    <string-array name="relative_array_male_node_married">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Son</item>
+        <item>Daughter</item>
+    </string-array>
+
+    <string-array name="relative_array_female_node_single">
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Husband</item>
+    </string-array>
+
+    <string-array name="relative_array_female_node_married">
+        <item>Brother</item>
+        <item>Sister</item>
+    </string-array>
+
+    <string-array name="relative_array_partner_node">
+    </string-array>
+</resources>

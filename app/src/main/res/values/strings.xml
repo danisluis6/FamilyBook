@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Genealogy</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">navigation open</string>
+    <string name="navigation_drawer_close">navigation close</string>
+
+    <string name="frg_my_genealogy">My genealogy</string>
+    <string name="frg_create_genealogy">Create new genealogy</string>
+    <string name="frg_update_genealogy">Update genealogy</string>
+    <string name="frg_view_genealogy">Genealogy information</string>
+
+    <string name="frg_branches">Branch</string>
+    <string name="frg_create_branch">Create new branch</string>
+    <string name="frg_update_branch">Update branch</string>
+
+    <string name="frg_search">Search</string>
+    <string name="frg_notification">Notification</string>
+
+    <string name="frg_profile">Profile</string>
+    <string name="frg_update_profile">Update profile</string>
+
+    <string name="frg_family_tree">Family tree</string>
+
+    <string name="tab_title_information">Information</string>
+    <string name="tab_title_detail">Details</string>
+    <string name="tab_title_event">Event</string>
+    <string name="tab_title_member">Member</string>
+    <string name="tab_title_request">Request</string>
+    <string name="tab_title_chat">Chat</string>
+
+    <string name="tab_title_search_genealogy">Genealogy</string>
+    <string name="tab_title_search_branch">Branch</string>
+    <string name="tab_title_search_people">People</string>
+
+    <string name="tab_title_genealogy">Genealogy</string>
+    <string name="tab_title_branch">Branch</string>
+
+    <string name="error_username">Invalid username format</string>
+    <string name="error_password">Your password is not strong enough. Make sure it follows the rules above</string>
+    <string name="error_fullname">Fullname field is empty</string>
+    <string name="sign_up">Sign up!</string>
+    <string name="label_register_account">Don\'t have an account?</string>
+    <string name="btn_login">Login</string>
+    <string name="hint_password">Password</string>
+    <string name="label_username">Username</string>
+
+    <string name="notifications_admin_channel_name">Global channel</string>
+    <string name="notifications_admin_channel_description">Notifications sent from the app admin</string>
+
+    <string name="frg_title_event">Event Family</string>
+
+    <string name="label_event_date_created">Set Date</string>
+    <string name="label_event_time_created">Set Time</string>
+    <string name="label_event_content">Content</string>
+    <string name="label_event_create">Create Event</string>
+
+    <string name="error_set_date">The Set date field is empty!</string>
+    <string name="error_set_time">The Set time field is empty!</string>
+    <string name="error_event_content">The Content field is empty!</string>
+    <string name="label_fullname">Fullname</string>
+    <string name="label_address">Address</string>
+    <string name="label_mail">Email</string>
+    <string name="label_birthday">Birthday</string>
+
+    <string name="fileprovider">.fileprovider</string>
+    <string name="message_wrong_image">Something went wrong with the image, please try again!</string>
+
+</resources>

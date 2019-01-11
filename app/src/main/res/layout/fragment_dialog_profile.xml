@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fffdfd"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:minWidth="1000dp"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="16dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btnClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_close" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/circle_profile"
+                    android:src="@drawable/default_user_image"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="-20dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgGenger"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="70dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Full name"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtFullname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:text="Nickname"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtNickname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Birthday"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtBirthday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:id="@+id/txtDeathdayTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Deathday"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtDeathday"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Description"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:layout_marginTop="2dp"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="345dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="16dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <com.github.clans.fab.FloatingActionMenu
+                android:id="@+id/btnMenu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:layout_marginRight="10dp"
+                app:menu_animationDelayPerItem="100"
+                app:menu_backgroundColor="@android:color/transparent"
+                app:menu_buttonSpacing="0dp"
+                app:menu_colorNormal="@color/colorPrimary"
+                app:menu_colorPressed="@color/colorAccent"
+                app:menu_colorRipple="#99d4d4d4"
+                app:menu_fab_size="normal"
+                android:src="@drawable/ic_menu_white"
+                app:menu_labels_colorNormal="#bb565656"
+                app:menu_labels_colorPressed="#95797979"
+                app:menu_labels_colorRipple="#5cefecec"
+                app:menu_labels_cornerRadius="3dp"
+                app:menu_labels_ellipsize="none"
+                app:menu_labels_hideAnimation="@anim/fab_slide_out_to_right"
+                app:menu_labels_margin="0dp"
+                app:menu_labels_maxLines="-1"
+                app:menu_labels_padding="8dp"
+                app:menu_labels_position="left"
+                app:menu_labels_showAnimation="@anim/fab_slide_in_from_right"
+                app:menu_labels_showShadow="true"
+                app:menu_labels_singleLine="false"
+                app:menu_labels_textColor="#f2f1f1"
+                app:menu_labels_textSize="12sp"
+                app:menu_openDirection="up"
+                app:menu_shadowColor="#797979"
+                app:menu_shadowRadius="1dp"
+                app:menu_shadowXOffset="1dp"
+                app:menu_shadowYOffset="1dp"
+                app:menu_showShadow="true"
+                tools:ignore="InvalidId">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/btnAddNode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_add_relative"
+                    app:fab_label="Add relative"
+                    app:fab_size="mini"
+                    app:fab_colorNormal="#9a4542"
+                    app:fab_colorPressed="@color/colorAccent"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/btnRelative"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_relation"
+                    app:fab_label="See relative with other"
+                    app:fab_size="mini"
+                    app:fab_colorNormal="#9a4542"
+                    app:fab_colorPressed="@color/colorAccent"/>
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/btnEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_edit"
+                    app:fab_label="Edit profile"
+                    app:fab_size="mini"
+                    app:fab_colorNormal="#9a4542"
+                    app:fab_colorPressed="@color/colorAccent"/>
+            </com.github.clans.fab.FloatingActionMenu>
+        </FrameLayout>
+
+    </ScrollView>
+</LinearLayout>

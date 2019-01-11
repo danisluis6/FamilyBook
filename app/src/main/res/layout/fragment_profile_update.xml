@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="false"
+    android:id="@+id/profile_frame"
+    tools:context=".view.fragment.genealogy.ShowGenealogyFragment.GenealogyFragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:id="@+id/circle_profile"
+                        android:src="@drawable/default_user_image"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginBottom="-20dp"
+                        />
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/btnEditBranch"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_camera"
+                        android:layout_margin="-30dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Full name"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <EditText
+                            android:id="@+id/edtFullname"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Birthday"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <EditText
+                            android:id="@+id/edtBirthday"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"/>
+
+                        <TextView
+                            android:id="@+id/txtDeathdayTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Mail"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <EditText
+                            android:id="@+id/edtMail"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:inputType="textEmailAddress"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Address"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <EditText
+                            android:id="@+id/edtAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="3dp"
+                            android:layout_marginBottom="10dp"
+                            android:textSize="18dp"
+                            android:textColor="@color/black"/>
+
+                        <RadioGroup
+                            android:id="@+id/radioGender"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <RadioButton android:id="@+id/radioMale"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Male"
+                                android:layout_marginRight="80dp"/>
+                            <RadioButton android:id="@+id/radioFemale"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Female"/>
+                        </RadioGroup>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </ScrollView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnDoneProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/ic_done"
+            android:layout_margin="16dp" />
+    </FrameLayout>
+
+</FrameLayout>

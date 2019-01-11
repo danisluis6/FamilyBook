@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="false"
+    android:id="@+id/branch_frame"
+    tools:context=".view.fragment.branch.ShowBranchFragment.BranchFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNotice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="You didn't have any genealogy. \nPlease create a genealogy first."
+            android:gravity="center"
+            android:visibility="gone"/>
+
+        <Spinner
+            android:id="@+id/spGenealogy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="50dp"
+            android:background="@drawable/spinner_border"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtNoticeBranch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Your genealogy doesn't have any branch. \nPlease create a new one."
+                android:gravity="center"
+                android:visibility="gone"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerViewBranch"
+                    android:overScrollMode="never"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </android.support.v7.widget.RecyclerView>
+            </ScrollView>
+
+            <android.support.design.widget.FloatingActionButton
+                android:id="@+id/btnCreateBranch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:src="@drawable/plus"
+                android:visibility="gone"
+                android:layout_margin="16dp" />
+        </FrameLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

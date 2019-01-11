@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:clickable="false"
+    android:id="@+id/lineBranch">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnAccept"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:text="Accept"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@+id/btnDecline"
+            android:background="#5293f5"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"/>
+
+        <Button
+            android:id="@+id/btnDecline"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:text="Decline"
+            android:textColor="@color/white"
+            android:background="#d9030f"
+            android:textSize="12dp"
+            android:layout_alignParentRight="true"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

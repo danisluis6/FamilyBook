@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9F3E34</color>
+    <color name="colorPrimaryDark">#8C1004</color>
+    <color name="colorAccent">#8C1004</color>
+    <color name="beige">#b9a4a2</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="darkgray">#6c6c6c</color>
+    <color name="lightgray">#9E9D9D</color>
+    <color name="redLight">#e7d6d4</color>
+    <color name="statusbar">#FAFAFA</color>
+    <color name="redlight">#C73424</color>
+
+    <!-- Login theme -->
+    <color name="btn_disable_login">#bf574c</color>
+    <color name="btn_login">#C73424</color>
+    <color name="btn_disable">#6e8c1004</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <color name="colorDisable">#E30388D7</color>
+    <color name="colorBorder">#0388d7</color>
+    <color name="colorBg">#30303C</color>
+</resources>
