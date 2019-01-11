@@ -27,25 +27,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc24ea6d-eec1-479e-8544-773a05cbc617" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/__local_aars____home_lorence_Android_Sdk_build_tools_27_0_2_renderscript_lib_renderscript_v8_jar_unspecified_jar.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/util/GaussianBlur.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -139,21 +133,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GenealogyApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/app/GenealogyApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+            <state relative-caret-position="765">
+              <caret line="107" column="5" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,18 +145,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <file leaf-file-name="RegisterActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="42" lean-forward="false" selection-start-line="14" selection-start-column="42" selection-end-line="14" selection-end-column="42" />
+            <state relative-caret-position="540">
+              <caret line="123" column="70" lean-forward="true" selection-start-line="123" selection-start-column="70" selection-end-line="123" selection-end-column="70" />
               <folding>
-                <element signature="e#775#793#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#2771#3345#0" expanded="true" />
+                <element signature="e#3344#3345#0" expanded="true" />
               </folding>
             </state>
-          </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
           </provider>
         </entry>
       </file>
@@ -2894,7 +2877,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/splash/SplashActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchView.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchPresenter.java" />
@@ -2907,7 +2889,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/response/Event.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_search_genealogy.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/genealogy/ShowGenealogyFragment/GenealogyFragment.java" />
@@ -2940,11 +2921,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/profile/UpdateProfile/UpdateProfileFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/util/Constants.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/app/GenealogyApplication.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java" />
       </list>
     </option>
   </component>
@@ -3083,7 +3066,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="device.picker.selection" value="RQ3002E9SP" />
-    <property name="SearchEverywhereHistoryKey" value="LoginAc&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;Android&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;Application&#9;PSI&#9;JAVA://com.senior.project.genealogy.app.GenealogyApplication&#10;Applica&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/ApplicationApi.java&#10;GenealogyApp&#9;PSI&#9;JAVA://com.senior.project.genealogy.app.GenealogyApplication&#10;AndroidMani&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;style&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/styles.xml&#10;LoginA&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;Cons&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/util/Constants.java&#10;Utils&#9;PSI&#9;JAVA://com.senior.project.genealogy.util.Utils&#10;HomeA&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/home/HomeActivity.java&#10;strings.x&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/strings.xml&#10;UpdatePro&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/profile/UpdateProfile/UpdateProfileFragment.java&#10;LoginMo&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.login.LoginModelImpl&#10;Genealogy&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/GenealogyApi.java&#10;profile&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/fragment_profile_update.xml&#10;NotificationFr&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;colors&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/colors.xml&#10;Notifica&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;NotificationFra&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;Not&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.notification.NotificationFragment&#10;HomeAc&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/home/HomeActivity.java&#10;Peo&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.search.MemberSearchFragment.PeopleSearchFragment&#10;Profile&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/fragment_profile.xml&#10;styles&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/styles.xml&#10;color&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/colors.xml&#10;activity_login&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/activity_login.xml&#10;Regis&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java&#10;Sear&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/search/SearchFragment/SearchFragment.java&#10;SearFr&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.search.SearchFragment.SearchFragment&#10;regi&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/activity_register.xml&#10;Regist&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.register.RegisterActivity&#10;DetailEventFra&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.branch.DetailEventBranchFragment.DetailEventBranchFragment&#10;Dialog&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/dialog/DialogEventFragment.java&#10;User&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/UserApi.java&#10;A&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/UserApi.java&#10;LoginMO&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginModelImpl.java&#10;Detail&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailInformationBranchFragment/DetailInformationBranchFragment.java&#10;Login&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;LoginMod&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.login.LoginModelImpl&#10;DetailEventF&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchFragment.java&#10;AndroidMa&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;DetailE&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchFragment.java&#10;DetailEv&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.branch.DetailEventBranchFragment.DetailEventBranchFragment&#10;MyFire&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;MyFirebas&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;subscribeToTopic&#9;PSI&#9;JAVA://com.google.firebase.iid.MessagingChannel#subscribeToTopic&#10;Fire&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;Branch&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailMemberRequestBranchFragment/DetailMemberRequestBranchFragment.java&#10;GenealogyApplic&#9;PSI&#9;JAVA://com.senior.project.genealogy.app.GenealogyApplication" />
+    <property name="SearchEverywhereHistoryKey" value="RegisterAc&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.register.RegisterActivity&#10;activity_login&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/activity_login.xml&#10;LoginAc&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;Android&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;Application&#9;PSI&#9;JAVA://com.senior.project.genealogy.app.GenealogyApplication&#10;Applica&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/ApplicationApi.java&#10;GenealogyApp&#9;PSI&#9;JAVA://com.senior.project.genealogy.app.GenealogyApplication&#10;AndroidMani&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;style&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/styles.xml&#10;LoginA&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;Cons&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/util/Constants.java&#10;Utils&#9;PSI&#9;JAVA://com.senior.project.genealogy.util.Utils&#10;HomeA&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/home/HomeActivity.java&#10;strings.x&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/strings.xml&#10;UpdatePro&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/profile/UpdateProfile/UpdateProfileFragment.java&#10;LoginMo&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.login.LoginModelImpl&#10;Genealogy&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/GenealogyApi.java&#10;profile&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/fragment_profile_update.xml&#10;NotificationFr&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;colors&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/colors.xml&#10;Notifica&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;NotificationFra&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/notification/NotificationFragment.java&#10;Not&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.notification.NotificationFragment&#10;HomeAc&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/home/HomeActivity.java&#10;Peo&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.search.MemberSearchFragment.PeopleSearchFragment&#10;Profile&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/fragment_profile.xml&#10;styles&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/styles.xml&#10;color&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/values/colors.xml&#10;Regis&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java&#10;Sear&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/search/SearchFragment/SearchFragment.java&#10;SearFr&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.search.SearchFragment.SearchFragment&#10;regi&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/res/layout/activity_register.xml&#10;Regist&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.register.RegisterActivity&#10;DetailEventFra&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.branch.DetailEventBranchFragment.DetailEventBranchFragment&#10;Dialog&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/dialog/DialogEventFragment.java&#10;User&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/UserApi.java&#10;A&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/service/UserApi.java&#10;LoginMO&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginModelImpl.java&#10;Detail&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailInformationBranchFragment/DetailInformationBranchFragment.java&#10;Login&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java&#10;LoginMod&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.activity.login.LoginModelImpl&#10;DetailEventF&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchFragment.java&#10;AndroidMa&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/AndroidManifest.xml&#10;DetailE&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailEventBranchFragment/DetailEventBranchFragment.java&#10;DetailEv&#9;PSI&#9;JAVA://com.senior.project.genealogy.view.fragment.branch.DetailEventBranchFragment.DetailEventBranchFragment&#10;MyFire&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;MyFirebas&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;subscribeToTopic&#9;PSI&#9;JAVA://com.google.firebase.iid.MessagingChannel#subscribeToTopic&#10;Fire&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/firebase/MyFirebaseMessagingService.java&#10;Branch&#9;FILE&#9;file:///home/lorence/Desktop/Genealogy-Android/app/src/main/java/com/senior/project/genealogy/view/fragment/branch/DetailMemberRequestBranchFragment/DetailMemberRequestBranchFragment.java" />
     <property name="DEBUGGABLE_DEVICE" value="sony-f3116-RQ3002E9SP" />
     <property name="DEBUGGABLE_PROCESS" value="com.senior.project.genealogy" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
@@ -3211,7 +3194,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547176709201" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547177796237" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -3259,7 +3242,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547176709201" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547177796238" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3442,7 +3425,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547176709203" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1547177796239" />
       </method>
     </configuration>
     <list size="2">
@@ -3491,6 +3474,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3510,10 +3494,10 @@
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49806523" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50193477" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24488668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24488668" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946378" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -3592,23 +3576,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_search_people.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="163" column="56" lean-forward="false" selection-start-line="163" selection-start-column="56" selection-end-line="163" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/fragment/search/MemberSearchFragment/PeopleSearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_done.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -3919,17 +3886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="47" lean-forward="false" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/custom_bg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3978,17 +3934,58 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/app/GenealogyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1822">
+          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <element signature="e#2184#2208#0" expanded="true" />
+            <element signature="e#3305#3328#0" expanded="true" />
+            <element signature="e#4239#4263#0" expanded="true" />
+            <element signature="e#5204#5227#0" expanded="true" />
+            <element signature="e#6165#6185#0" expanded="true" />
+            <element signature="e#6742#6766#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/login/LoginActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="93" column="0" lean-forward="true" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        <state relative-caret-position="765">
+          <caret line="107" column="5" lean-forward="false" selection-start-line="81" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/senior/project/genealogy/view/activity/register/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="123" column="70" lean-forward="true" selection-start-line="123" selection-start-column="70" selection-end-line="123" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2771#3345#0" expanded="true" />
+            <element signature="e#3344#3345#0" expanded="true" />
           </folding>
         </state>
       </provider>
