@@ -50,55 +50,79 @@
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-                    android:textColorHint="@color/colorPrimaryDark"
+                    android:layout_height="48dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_login_field"
+                    android:textColorHint="@color/text_hint_01"
                     app:hintTextAppearance="@style/MyAppearance">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/colorPrimaryDark"
                         android:hint="@string/label_username"
+                        android:textSize="14sp"
+                        android:paddingBottom="11dp"
+                        android:background="@null"
                         android:imeOptions="actionNext"
                         android:inputType="text"
-                        android:maxLength="25"
-                        android:paddingBottom="15dp"
-                        android:singleLine="true" />
+                        android:maxLength="32"
+                        android:singleLine="true"/>
+
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-                    android:textColorHint="@color/colorPrimaryDark"
+                    android:layout_height="48dp"
+                    android:paddingLeft="16dp"
+                    android:paddingStart="16dp"
+                    android:paddingEnd="16dp"
+                    android:paddingRight="16dp"
+                    android:paddingTop="4dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginRight="16dp"
+                    android:background="@drawable/shape_login_field"
+                    android:textColorHint="@color/text_hint_01"
                     app:hintTextAppearance="@style/MyAppearance"
                     app:passwordToggleDrawable="@drawable/icon_selector"
                     app:passwordToggleEnabled="true"
-                    app:passwordToggleTint="@color/colorPrimaryDark">
+                    app:passwordToggleTint="@color/text_hint_01">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="@color/colorPrimaryDark"
+                        android:background="@null"
+                        android:textSize="14sp"
+                        android:paddingBottom="11dp"
                         android:hint="@string/hint_password"
                         android:imeOptions="actionDone"
                         android:inputType="textPassword"
-                        android:paddingBottom="15dp"
+                        android:maxLength="32"
                         android:singleLine="true" />
+
                 </android.support.design.widget.TextInputLayout>
 
                 <Button
                     android:id="@+id/btnLogin"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="34dp"
-                    android:layout_marginRight="34dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginEnd="16dp"
                     android:layout_marginTop="30dp"
                     android:background="@drawable/radius_button_disable"
                     android:enabled="false"

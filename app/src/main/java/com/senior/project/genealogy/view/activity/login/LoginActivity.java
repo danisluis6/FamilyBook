@@ -59,6 +59,9 @@ public class LoginActivity extends AppCompatActivity implements LoginView {
     private ProgressDialog mProgressDialog;
     private GaussianBlur blur;
 
+    // https://www.uplabs.com/posts/modern-web-login-page
+    // https://assets.materialup.com/uploads/20491861-4a2d-43a2-ae8b-5b8698f2207f/preview.jpg
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
